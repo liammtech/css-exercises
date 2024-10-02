@@ -8,7 +8,8 @@ body {
   font-weight: 800;
 }
 
-.small-para {
+/* Add .para as chaining combinator prefix */
+.para.small-para {
   font-size: 14px;
   font-weight: 800;
 }
@@ -17,7 +18,8 @@ body {
   font-size: 22px;
 }
 
-.confirm {
+/* Add .button as chaining combinator prefix */
+.button.confirm {
   background: green;
   color: white;
   font-weight: bold;
@@ -29,7 +31,8 @@ body {
   font-size: 20px;
 }
 
-.child {
+/* Add .text as chaining combinator prefix */
+.text.child {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;

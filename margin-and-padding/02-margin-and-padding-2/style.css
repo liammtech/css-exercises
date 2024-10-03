@@ -25,6 +25,8 @@ body {
   background: #e3f4ff;
   /* Added margin-bottom to "blue content" */
   margin-bottom: 8px;
+  /* Added padding to content */
+  padding: 16px 8px;
 }
 
 .button-container {

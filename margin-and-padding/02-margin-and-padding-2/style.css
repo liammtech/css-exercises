@@ -31,6 +31,9 @@ body {
 
 .button-container {
   background: #e3f4ff;
+  /* Centre .button-container content and add padding */
+  text-align: center;
+  padding: 8px;
 }
 
 button {

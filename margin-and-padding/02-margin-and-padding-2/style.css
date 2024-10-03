@@ -13,10 +13,14 @@ body {
 
 .title {
   background: #e3f4ff;
+  /* Added margin-bottom to "blue content" */
+  margin-bottom: 8px;
 }
 
 .content {
   background: #e3f4ff;
+  /* Added margin-bottom to "blue content" */
+  margin-bottom: 8px;
 }
 
 .button-container {

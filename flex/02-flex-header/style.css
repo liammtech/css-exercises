@@ -1,6 +1,18 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+
+  /* Add padding to header */
+  padding: 10px;
+
+  /* Set display to flex */
+  display: flex;
+  
+  /* Spread child elements horizontally*/
+  justify-content: space-between;
+
+  /* Centre child elements vertically */
+  align-items: center;
 }
 
 .logo {
@@ -14,6 +26,13 @@
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+
+  /* Remove ul default margin and padding */
+  margin: 0;
+  padding: 0;
+
+  /* Set display to flex */
+  display: flex;
 }
 
 a {
@@ -22,4 +41,10 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+
+  /* Set display to flex */
+  display: flex;
+
+  /* Set gap on link elements */
+  margin: 10px;
 }

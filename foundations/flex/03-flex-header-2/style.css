@@ -12,6 +12,25 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+
+  /* New rules */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+/* New class rules */
+.left-links,
+.right-links {
+  display: flex;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+  padding-left: 20px;
 }
 
 .profile-image {
@@ -35,6 +54,9 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+
+  /* New rules */
+  margin-right: 20px;
 }
 
 a {
